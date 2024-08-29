@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #041e50;
+}
+
+/* Login container styles */
+.ors-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login box styles */
+.ors-login-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography styles */
+.ors-login-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ors-login-box h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ors-login-box label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Input group styles */
+.ors-input-group {
+  margin-bottom: 20px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+/* Input styles */
+.ors-input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Captcha styles */
+.ors-captcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Login button styles */
+.ors-login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ors-login-button:hover {
+  background-color: #0069d9;
+}
+
+/* Links styles */
+.ors-links {
+  margin-top: 20px;
+  color: #337ab7;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.ors-links:hover {
+  color: #23527c;
+}
+
+/* Password input wrapper styles */
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-family: "Palatino Linotype", serif;
+  font-size: x-large;
+}
+
+.logo img {
+  margin-right: 20px;
+  height: 100px;
+}
