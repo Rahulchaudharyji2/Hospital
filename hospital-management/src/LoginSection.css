@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: palantino linotype, sans-serif;
+    background-color: #fff;
+  }
+  
+  .hospitalName {
+    color: #041e50;
+    font-size: 52px;
+    margin: 20px 0;
+  }
+
+  .login-signup-container {
+    text-align: center;
+    padding: 25px;
+  }
+
+  .englishText{
+    margin-top: -5px;
+  }
+
+  .header-text h4 + h4 {
+    margin-top: -25px; 
+  }
+
+  .login-signup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(150, 150, 150);
+  }
+  
+  .logo {
+    height: 15vh;
+    display: flex;
+    margin-top: 2px;
+    align-items: center;
+
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-left: 5vw;
+  }
+  
+  .logo img {
+    height: 15vh;
+    margin-right: 10px;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .header-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hindiText {
+    font-weight: 500;
+  }
+  
+  .main-title {
+    font-size: 112px;
+    font-family: "times new roman", times, serif;
+    margin-top: 20px;
+    background: radial-gradient(circle at 51.45833333333333% 100%, rgba(0, 0, 0, 0.67) 0%, 17.5%, rgba(0, 0, 0, 0) 35%), radial-gradient(circle at 49.166666666666664% 87.91666666666667%, rgba(8, 40, 103, 0.67) 0%, 17.5%, rgba(8, 40, 103, 0) 35%), radial-gradient(circle at 85.41666666666666% 56.25%, rgba(139, 97, 79, 0.67) 0%, 17.5%, rgba(139, 97, 79, 0) 35%), radial-gradient(circle at 53.95833333333333% 30.833333333333336%, rgba(9, 75, 204, 0.67) 0%, 17.5%, rgba(9, 75, 204, 0) 35%), radial-gradient(circle at 0% 15%, rgba(0, 0, 0, 0.4489000000000001) 0%, 17.5%, rgba(0, 0, 0, 0) 35%), radial-gradient(circle at 25% 44.166666666666664%, rgba(0, 0, 0, 0.67) 0%, 17.5%, rgba(0, 0, 0, 0) 35%), radial-gradient(circle at 33.33333333333333% 66.66666666666666%, rgba(8, 40, 103, 0.67) 0%, 17.5%, rgba(8, 40, 103, 0) 35%), radial-gradient(circle at 0% 51.66666666666667%, rgba(8, 40, 103, 0.67) 0%, 17.5%, rgba(8, 40, 103, 0) 35%), radial-gradient(circle at 11.041666666666666% 70%, rgba(8, 40, 103, 0.67) 0%, 17.5%, rgba(8, 40, 103, 0) 35%), radial-gradient(circle at 6.165364583333333% 12.617187499999998%, rgba(8, 40, 103, 0.67) 0%, 42%, rgba(8, 40, 103, 0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, rgba(169, 128, 111, 0.67) 0%, 42%, rgba(169, 128, 111, 0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, rgba(255, 255, 255, 0.67) 0%, 100%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1.5em;
+  }
+  
+  .card {
+    background-color: #cecccc;
+    display: flex;
+    align-items: end;
+    border-radius: 10%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    height: 65vh;
+    width: 30vw;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .card1 {
+    background-image: url('./image/admin.jpg');
+    background-size: cover;
+  }
+  
+  .card2 {
+    background-image: url('./image/patient.png');
+    background-size: cover;
+  }
+  
+  .card h3 {
+    font-size: 32px;
+    padding: 3vw 4vw;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    padding: 10px 10px 10px 30px;
+    box-shadow: 3px 3px 3px rgba(1, 1, 1, 1);
+  }
+  
+  .arrowWrapper {
+    border-radius: 50%;
+    background-color: #dad7d7;
+    padding: 15px;
+    margin: 3vw 1vw;
+  }
+
+  .arrow {
+    font-size: 42px;
+    text-decoration: none;
+    color: #333;
+    transform: rotateZ(30deg);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+  }
+  
+  .arrow:hover {
+    color: #555;
+    transform: rotateZ(0deg);
+  }
+  
+  .footer {
+    margin-top: 40px;
+    color: #777;
+  }
+  
+  .footer a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #333;
+  }
+  

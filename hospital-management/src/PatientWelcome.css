@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hos-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hos-register-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #042053e4;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #0c3a90d6;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  
+  .hos-register-button {
+    background-color: #3b6ccf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .hos-register-button:hover {
+    background-color: #2a53a8;
+  }
+  
+  .hos-note {
+    text-align: left;
+    border-top: 1px solid #042053e4;
+    padding-top: 20px;
+  }
+  
+  .hos-note h3 {
+    font-size: 13px;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
+  
+  .hos-note ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hos-note li {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 13px;
+  }
+  
+  .i{
+    background-color: #111;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px 5px;
+  }
