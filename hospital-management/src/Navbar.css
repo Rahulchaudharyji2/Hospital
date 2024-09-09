@@ -1,0 +1,243 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Global Styles for Desktop */
+.navbar-container {
+  max-width: 100%;
+  margin: 0;
+}
+
+.login-container {
+  width: 100%;
+  padding-right: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #082F7B;
+}
+
+.login-btn {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  margin: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: rgb(26 106 239);
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10vw;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 42px;
+  font-family: "palatino linotype", serif;
+  color: #082F7B;
+  font-weight: 100;
+}
+
+.logo {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.title p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.text-eng {
+  font-weight: 600;
+}
+
+.right-section {
+  min-width: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.election-logo,
+.delhi-logo {
+  height: 70px;
+  width: 165px;
+  margin-right: 15px;
+}
+
+.delhi-logo {
+  width: 180px;
+}
+
+/* Navbar Footer Styling */
+.navbar-footer {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #082F7B;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  margin: 0.2em; /* Space between links */
+}
+
+.footer-link:hover {
+  background-color: rgb(26, 106, 239);
+  padding: 0.5em 1.5em; /* Consistent padding on hover */
+  border-radius: 0.5em;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 30vw;
+  min-width: 150px; /* Ensure the input isn't too small on narrow screens */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  margin-right: 1em;
+}
+
+.search-input::placeholder {
+  color: #666;
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+/* Media Queries */
+
+/* For Laptops (1024px and above) */
+@media only screen and (max-width: 1200px) {
+  .logo {
+    width: 50px;
+  }
+  .title h1 {
+    font-size: 36px;
+  }
+  .right-section {
+    min-width: 50%;
+  }
+  .search-input {
+    width: 20vw;
+  }
+}
+
+/* For Tablets (768px to 1023px) */
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width: 45px;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  .left-section {
+    padding-left: 5vw;
+  }
+
+  .navbar-footer{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-section {
+    flex-direction: column;
+  }
+  .search-input {
+    width: 50vw;
+    padding: 8px 20px;
+  }
+  .footer-link {
+    padding: 0.8em 1.5em;
+  }
+}
+
+/* For Mobile Devices (Up to 767px) */
+@media only screen and (max-width: 767px) {
+  .login-container {
+    justify-content: center;
+    padding-right: 0;
+  }
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .left-section {
+    padding-left: 0;
+  }
+  .right-section {
+    justify-content: center;
+    margin-top: 10px;
+    min-width: 100%;
+  }
+  .title h1 {
+    font-size: 24px;
+  }
+  .title p {
+    font-size: 12px;
+  }
+  .logo {
+    width: 40px;
+  }
+  .election-logo,
+  .delhi-logo {
+    width: 130px;
+    height: 60px;
+  }
+
+  .navbar-footer{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-input {
+    width: 80vw;
+    padding: 6px 15px;
+  }
+  .footer-link {
+    padding: 0.5em 1em;
+  }
+}
+
+
+
+
