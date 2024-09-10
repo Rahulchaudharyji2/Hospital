@@ -183,6 +183,7 @@
   }
   .search-input {
     width: 50vw;
+    margin-bottom: 8px;
     padding: 8px 20px;
   }
   .footer-link {
@@ -231,6 +232,7 @@
 
   .search-input {
     width: 80vw;
+    margin-bottom: 8px;
     padding: 6px 15px;
   }
   .footer-link {
