@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: calc(50% - 20px); /* For 2 columns, subtracting the gap */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .hospital-icon {
+    background: url('./image/admin.jpg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .appointment-icon {
+    background: url('./image/emblem.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .teleconsultation-icon {
+    background: url('./image/patient.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .calendar-icon {
+    background: url('./image/emblem.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .stat-info h2 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .stat-info p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .stat-info small {
+    font-size: 12px;
+    color: #999;
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+
+    .stats-container{
+        justify-content: center;
+    }
+
+    .stat-card {
+      width: 80%;
+    }
+  }
