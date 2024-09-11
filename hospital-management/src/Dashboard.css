@@ -43,7 +43,7 @@
   }
   
   .hospital-icon {
-    background: url('./image/admin.jpg') no-repeat center center;
+    background: url('./image/hospital.png') no-repeat center center;
     background-size: contain;
   }
   
@@ -53,12 +53,12 @@
   }
   
   .teleconsultation-icon {
-    background: url('./image/patient.png') no-repeat center center;
+    background: url('./image/hospital-bed.png') no-repeat center center;
     background-size: contain;
   }
   
   .calendar-icon {
-    background: url('./image/emblem.png') no-repeat center center;
+    background: url('./image/calendar1.png') no-repeat center center;
     background-size: contain;
   }
   
